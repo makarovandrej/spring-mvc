@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="Use java configuration instead web.xml and applicationContext.xml">
+    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="RequestParam and HttpServletRequest - how to get request params from GET">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672277947575</updated>
       <workItem from="1672277949635" duration="3766000" />
-      <workItem from="1672281794557" duration="6174000" />
+      <workItem from="1672281794557" duration="7878000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit + simple controller + configuration of application via xml">
       <created>1672283694240</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672335331083</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RequestParam and HttpServletRequest - how to get request params from GET">
+      <created>1672351896102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672351896102</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit + simple controller + configuration of application via xml" />
     <MESSAGE value="Use java configuration instead web.xml and applicationContext.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use java configuration instead web.xml and applicationContext.xml" />
+    <MESSAGE value="RequestParam and HttpServletRequest - how to get request params from GET" />
+    <option name="LAST_COMMIT_MESSAGE" value="RequestParam and HttpServletRequest - how to get request params from GET" />
   </component>
 </project>
