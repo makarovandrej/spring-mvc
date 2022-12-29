@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="Init commit + simple controller + configuration of application via xml">
+    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="Use java configuration instead web.xml and applicationContext.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,8 +33,8 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,11 +50,12 @@
   <component name="ProjectId" id="2JZFxjiRNdX9lrnyAeQnYtSmnrA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -181,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672277947575</updated>
       <workItem from="1672277949635" duration="3766000" />
-      <workItem from="1672281794557" duration="3206000" />
+      <workItem from="1672281794557" duration="6174000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit + simple controller + configuration of application via xml">
       <created>1672283694240</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672283694240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Use java configuration instead web.xml and applicationContext.xml">
+      <created>1672335331083</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672335331083</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init commit + simple controller + configuration of application via xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init commit + simple controller + configuration of application via xml" />
+    <MESSAGE value="Use java configuration instead web.xml and applicationContext.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use java configuration instead web.xml and applicationContext.xml" />
   </component>
 </project>
