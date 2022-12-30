@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="RequestParam and HttpServletRequest - how to get request params from GET">
+    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="Implementation simple calculator with parsing get parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/controllers/FirstController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +71,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    </key>
+  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -181,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672277947575</updated>
       <workItem from="1672277949635" duration="3766000" />
-      <workItem from="1672281794557" duration="7878000" />
+      <workItem from="1672281794557" duration="11653000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit + simple controller + configuration of application via xml">
       <created>1672283694240</created>
@@ -204,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672351896102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RequestParam and HttpServletRequest - how to get request params from GET">
+      <created>1672353566495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672353566495</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implementation simple calculator with parsing get parameters">
+      <created>1672353608225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672353608225</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +233,7 @@
     <MESSAGE value="Init commit + simple controller + configuration of application via xml" />
     <MESSAGE value="Use java configuration instead web.xml and applicationContext.xml" />
     <MESSAGE value="RequestParam and HttpServletRequest - how to get request params from GET" />
-    <option name="LAST_COMMIT_MESSAGE" value="RequestParam and HttpServletRequest - how to get request params from GET" />
+    <MESSAGE value="Implementation simple calculator with parsing get parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation simple calculator with parsing get parameters" />
   </component>
 </project>
