@@ -8,16 +8,17 @@ import java.util.List;
 
 @Component
 public class PersonDAO {
+    // DAO - Data access object - pattern
     private List<Person> people;
     private static int PEOPLE_COUNT;
 
     {
         people = new ArrayList<>();
-        people.add(new Person(++PEOPLE_COUNT, "Tom"));
-        people.add(new Person(++PEOPLE_COUNT, "Bob"));
-        people.add(new Person(++PEOPLE_COUNT, "James"));
-        people.add(new Person(++PEOPLE_COUNT, "John"));
-        people.add(new Person(++PEOPLE_COUNT, "Andrew"));
+        people.add(new Person(++PEOPLE_COUNT, "Tom", 10));
+        people.add(new Person(++PEOPLE_COUNT, "Bob", 20));
+        people.add(new Person(++PEOPLE_COUNT, "James", 27));
+        people.add(new Person(++PEOPLE_COUNT, "John", 43));
+        people.add(new Person(++PEOPLE_COUNT, "Andrew", 28));
     }
 
     public List<Person> index() {
@@ -35,4 +36,15 @@ public class PersonDAO {
         person.setId(++PEOPLE_COUNT);
         people.add(person);
     }
+
+    public void update(int id, Person updatedPerson) {
+        Person personToBeUpdate = show(id);
+        personToBeUpdate.setName(updatedPerson.getName());
+        personToBeUpdate.setAge(updatedPerson.getAge());
+    }
+
+    public void delete(int id) {
+        people.removeIf(p -> p.getId() == id);
+    }
+
 }
