@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Create new person</title>
@@ -11,11 +11,18 @@
         <div class="form-group">
             <label for="name">Enter name:</label>
             <input type="text" class="form-control" placeholder="Enter your name" th:field="*{name}" id="name"/>
+            <div style="color:red" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name error</div>
         </div>
 
         <div class="form-group">
             <label for="age">Enter you age:</label>
             <input type="text" class="form-control" placeholder="Enter your age" th:field="*{age}" id="age"/>
+            <div style="color:red" th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age error</div>
+        </div>
+        <div class="form-group">
+            <label for="email">Enter you email:</label>
+            <input type="text" class="form-control" placeholder="Enter your email" th:field="*{email}" id="email"/>
+            <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error</div>
         </div>
         <button class="btn btn-primary" type="submit">Create</button>
     </form>
