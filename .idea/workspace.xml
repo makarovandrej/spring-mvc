@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="JDBC Api">
+    <list default="true" id="92f72b0c-5f8f-49e0-b477-92e87eaf5ebd" name="Changes" comment="JDBC template + database.properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/makarov/springcourse/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/andreymakarov/Desktop/springMvcApp/src/main/webapp/WEB-INF/views/batch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +81,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     </key>
@@ -197,7 +199,7 @@
       <updated>1672277947575</updated>
       <workItem from="1672277949635" duration="3766000" />
       <workItem from="1672281794557" duration="21906000" />
-      <workItem from="1672787164706" duration="11325000" />
+      <workItem from="1672787164706" duration="18655000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit + simple controller + configuration of application via xml">
       <created>1672283694240</created>
@@ -262,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672880472809</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JDBC template + database.properties">
+      <created>1673133867648</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673133867648</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +286,8 @@
     <MESSAGE value="Create new person with using @PostMapping + redirect to start page" />
     <MESSAGE value="Simple CRUD finish" />
     <MESSAGE value="JDBC Api" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC Api" />
+    <MESSAGE value="JDBC template + database.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC template + database.properties" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
